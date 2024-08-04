@@ -41,13 +41,13 @@
     </header>
     <main>
         <section class="hero-section">
+            <picture class="hero-picture">
+                <source srcset="./images/hero/desktop_1x.jpg, ./images/hero/desktop_2x.jpg" media="min-width: 1158px">
+                <source srcset="./images/hero/tablet_1x.jpg, ./images/hero/tablet_2x.jpg" media="(min-width: 768px) and (max-width: 1157.99px)">
+                <source srcset="./images/hero/mobile_1x.jpg, ./images/hero/mobile_2x.jpg" media="max-width: 767.999px">
+                <img class="hero-image" src="./images/hero/mobile_1x.jpg" alt="Hero image" loading="lazy">
+            </picture>
             <div class="container">
-                <picture>
-                    <source srcset="" media="">
-                    <source srcset="" media="">
-                    <source srcset="" media="">
-                    <img class="hero-image" src="" alt="Hero image" loading="lazy">
-                </picture>
                 <h1 class="hero-header">
                     Effective Solutions for Your Business
                 </h1>
@@ -61,7 +61,7 @@
                     <li class="features-item">
                         <div class="features-icon-wrapper">
                             <svg width="64" height="64">
-                                <use href="./images/icons.svg#icon-antenna"></use>
+                                <use href="./images/icons/icons.svg#icon-antenna"></use>
                             </svg>
                         </div>
                         <h3 class="features-header">Strategy</h3>
@@ -71,7 +71,7 @@
                     <li class="features-item">
                         <div class="features-icon-wrapper">
                             <svg width="64" height="64">
-                                <use href="./images/icons.svg#icon-clock"></use>
+                                <use href="./images/icons/icons.svg#icon-clock"></use>
                             </svg>
                         </div>
                         <h3 class="features-header">Punctuality</h3>
@@ -81,7 +81,7 @@
                     <li class="features-item">
                         <div class="features-icon-wrapper">
                             <svg width="64" height="64">
-                                <use href="./images/icons.svg#icon-diagram"></use>
+                                <use href="./images/icons/icons.svg#icon-diagram"></use>
                             </svg>
                         </div>
                         <h3 class="features-header">Diligence</h3>
@@ -91,7 +91,7 @@
                     <li class="features-item">
                         <div class="features-icon-wrapper">
                             <svg width="64" height="64">
-                                <use href="./images/icons.svg#icon-astronaut"></use>
+                                <use href="./images/icons/icons.svg#icon-astronaut"></use>
                             </svg>
                         </div>
                         <h3 class="features-header">Technologies</h3>
@@ -106,7 +106,12 @@
                 <h2 class="team-header">Our Team</h2>
                 <ul class="team-list">
                     <li class="team-item">
-                        <img src="./images/mark_guerrero.jpg" alt="Mark Guerrero" width="264">
+                        <img 
+                            src="./images/team/mark_guerrero 1x.jpg" 
+                            srcset="./images/team/mark_guerrero 1x.jpg, ./images/team/mark_guerrero 2x.jpg" 
+                            alt="Mark Guerrero" 
+                            width="264"
+                        >
                         <div class="team-wrapper">
                             <h3 class="team-header-employee">Mark Guerrero</h3>
                             <p class="team-paragraf-employee">Product Designer</p>
@@ -124,7 +129,7 @@
                                         width="16" 
                                         height="16" 
                                         >
-                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                            <use href="./images/icons/icons.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -141,7 +146,7 @@
                                         width="16" 
                                         height="16" 
                                         >
-                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                            <use href="./images/icons/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -158,7 +163,7 @@
                                         width="16" 
                                         height="16" 
                                         >
-                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                            <use href="./images/icons/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -175,7 +180,7 @@
                                         width="16" 
                                         height="16" 
                                         >
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                            <use href="./images/icons/icons.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -183,7 +188,12 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/tom_ford.jpg" alt="Tom Ford" width="264">
+                        <img 
+                            src="./images/team/tom_ford 1x.jpg" 
+                            srcset="./images/team/tom_ford 1x.jpg, ./images/team/tom_ford 2x.jpg" 
+                            alt="Tom Ford" 
+                            width="264"
+                        >
                         <div class="team-wrapper">
                             <h3 class="team-header-employee">Tom Ford</h3>
                             <p class="team-paragraf-employee">Frontend Developer</p>
@@ -192,7 +202,7 @@
                                     <a class="social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Instagram site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                            <use href="./images/icons/icons.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -200,7 +210,7 @@
                                     <a class="social-link" href="https://twitter.com" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Twitter site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                            <use href="./images/icons/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -208,7 +218,7 @@
                                     <a class="social-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Facebook site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                            <use href="./images/icons/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -216,7 +226,7 @@
                                     <a class="social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Linkedin site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                            <use href="./images/icons/icons.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -224,7 +234,12 @@
                         </div>
                     </li>
                     <li class="team-item">
-                        <img src="./images/camila_garcia.jpg" alt="Camila Garcia" width="264">
+                        <img 
+                            src="./images/team/camila_garcia 1x.jpg" 
+                            srcset="./images/team/camila_garcia 1x.jpg, ./images/team/camila_garcia 2x.jpg" 
+                            alt="Camila Garcia" 
+                            width="264"
+                        >
                         <div class="team-wrapper">
                             <h3 class="team-header-employee">Camila Garcia</h3>
                             <p class="team-paragraf-employee">Marketing</p>
@@ -233,7 +248,7 @@
                                     <a class="social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Instagram site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                            <use href="./images/icons/icons.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -241,7 +256,7 @@
                                     <a class="social-link" href="https://twitter.com" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Twitter site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                            <use href="./images/icons/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -249,7 +264,7 @@
                                     <a class="social-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Facebook site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                            <use href="./images/icons/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -257,7 +272,7 @@
                                     <a class="social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Linkedin site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                            <use href="./images/icons/icons.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -265,7 +280,12 @@
                         </div>    
                     </li>
                     <li class="team-item">
-                        <img src="./images/daniel_wilson.jpg" alt="Daniel Wilson" width="264">
+                        <img 
+                            src="./images/team/daniel_wilson 1x.jpg" 
+                            srcset="./images/team/daniel_wilson 1x.jpg, ./images/team/daniel_wilson 2x.jpg" 
+                            alt="Daniel Wilson" 
+                            width="264"
+                        >
                         <div class="team-wrapper">
                             <h3 class="team-header-employee">Daniel Wilson</h3>
                             <p class="team-paragraf-employee">UI Designer</p>
@@ -274,7 +294,7 @@
                                     <a class="social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Instagram site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                            <use href="./images/icons/icons.svg#icon-instagram"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -282,7 +302,7 @@
                                     <a class="social-link" href="https://twitter.com" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Twitter site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                            <use href="./images/icons/icons.svg#icon-twitter"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -290,7 +310,7 @@
                                     <a class="social-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Facebook site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                            <use href="./images/icons/icons.svg#icon-facebook"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -298,7 +318,7 @@
                                     <a class="social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
                                         aria-label="Link to Linkedin site">
                                         <svg class="socials-icon" width="16" height="16">
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                            <use href="./images/icons/icons.svg#icon-linkedin"></use>
                                         </svg>
                                     </a>
                                 </li>
@@ -314,7 +334,13 @@
                 <ul class="portfolio-list">
                     <li class="portfolio-item">
                         <div class="image-box-wrapper">
-                            <img class="portfolio-img" src="./images/banking_app_interface_concept.jpg" alt="Banking App" width="360">
+                            <img 
+                                class="portfolio-img" 
+                                src="./images/portfolio/desktop_banking_app 1x.jpg"
+                                srcset="./images/portfolio/desktop_banking_app 1x.jpg, ./images/portfolio/desktop_banking_app 2x.jpg" 
+                                alt="Banking App" 
+                                width="360"
+                            >
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -326,7 +352,13 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="image-box-wrapper">
-                            <img class="portfolio-img" src="./images/cashless_payment.jpg" alt="Cashless Payment" width="360">
+                            <img 
+                                class="portfolio-img" 
+                                src="./images/portfolio/desktop_payment 1x.jpg"
+                                srcset="./images/portfolio/desktop_payment 1x.jpg, ./images/portfolio/desktop_payment 2x.jpg" 
+                                alt="Cashless Payment" 
+                                width="360"
+                            >
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -338,7 +370,13 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="image-box-wrapper">
-                            <img class="portfolio-img" src="./images/meditation_app.jpg" alt="Meditation App" width="360">
+                            <img 
+                                class="portfolio-img" 
+                                src="./images/portfolio/desktop_meditation_app 1x.jpg"
+                                srcset="./images/portfolio/desktop_meditation_app 1x.jpg, ./images/portfolio/desktop_meditation_app 2x.jpg" 
+                                alt="Meditation App" 
+                                width="360"
+                            >
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -350,7 +388,13 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="image-box-wrapper">
-                            <img class="portfolio-img" src="./images/taxi_service.jpg" alt="Taxi Service" width="360">
+                            <img 
+                                class="portfolio-img" 
+                                src="./images/portfolio/desktop_taxi 1x.jpg" 
+                                srcset="./images/portfolio/desktop_taxi 1x.jpg, ./images/portfolio/desktop_taxi 2x.jpg"
+                                alt="Taxi Service" 
+                                width="360"
+                            >
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -362,7 +406,13 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="image-box-wrapper">
-                            <img class="portfolio-img" src="./images/screen_illustrations.jpg" alt="Screen Illustrations" width="360">
+                            <img 
+                                class="portfolio-img" 
+                                src="./images/portfolio/desktop_screen_illustrations 1x.jpg" 
+                                srcset="./images/portfolio/desktop_screen_illustrations 1x.jpg, ./images/portfolio/desktop_screen_illustrations 2x.jpg"
+                                alt="Screen Illustrations" 
+                                width="360"
+                            >
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                             </p>
@@ -374,7 +424,13 @@
                     </li>
                     <li class="portfolio-item">
                         <div class="image-box-wrapper">
-                            <img class="portfolio-img" src="./images/online_courses.jpg" alt="Online Courses" width="360">
+                            <img 
+                                class="portfolio-img" 
+                                src="./images/portfolio/desktop_courses 1x.jpg" 
+                                srcset="./images/portfolio/desktop_courses 1x.jpg, ./images/portfolio/desktop_courses 2x.jpg"
+                                alt="Online Courses" 
+                                width="360"
+                            >
                             <p class="overlay">
                                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
                                 Ecommerce App · Cloud Storage App
@@ -406,7 +462,7 @@
                         <a class="footer-social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
                             aria-label="Link to Instagram site">
                             <svg class="socials-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-instagram"></use>
+                                <use href="./images/icons/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
@@ -414,7 +470,7 @@
                         <a class="footer-social-link" href="https://twitter.com" target="_blank" rel="noopener noreferrer"
                             aria-label="Link to Twitter site">
                             <svg class="socials-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-twitter"></use>
+                                <use href="./images/icons/icons.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
@@ -422,7 +478,7 @@
                         <a class="footer-social-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer"
                             aria-label="Link to Facebook site">
                             <svg class="socials-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-facebook"></use>
+                                <use href="./images/icons/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
@@ -430,7 +486,7 @@
                         <a class="footer-social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"
                             aria-label="Link to Linkedin site">
                             <svg class="socials-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                <use href="./images/icons/icons.svg#icon-linkedin"></use>
                             </svg>
                         </a>
                     </li>
@@ -446,7 +502,7 @@
                     </label>
                     <button type="submit" class="subscribe-button">Subscribe
                         <svg class="subscribe-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-send-white"></use>
+                            <use href="./images/icons/icons.svg#icon-send-white"></use>
                         </svg>
                     </button>
                 </form>
@@ -457,7 +513,7 @@
         <div class="modal">
             <button class="modal-close-btn" type="button">
                 <svg class="modal-close-icon" width="8" height="8">
-                    <use href="./images/icons.svg#icon-close-black"></use>
+                    <use href="./images/icons/icons.svg#icon-close-black"></use>
                 </svg>
             </button>
             <p class="modal-caption">Leave your contacts and we will call you back</p>
@@ -469,7 +525,7 @@
                     <div class="modal-form-wrapper">
                         <input type="text" class="modal-form-input" name="user-name" id="user-name">
                         <svg class="modal-form-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-person-black"></use>
+                            <use href="./images/icons/icons.svg#icon-person-black"></use>
                         </svg>    
                     </div>
                 </div>
@@ -480,7 +536,7 @@
                     <div class="modal-form-wrapper">
                         <input class="modal-form-input" type="tel" name="user_tel" id="user-tel">
                         <svg class="modal-form-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-phone-black"></use>
+                            <use href="./images/icons/icons.svg#icon-phone-black"></use>
                         </svg>
                     </div>
                 </div>
@@ -491,7 +547,7 @@
                     <div class="modal-form-wrapper">
                         <input class="modal-form-input" type="email" name="user_email" id="user-email">
                         <svg class="modal-form-icon" width="18" height="24">
-                            <use href="./images/icons.svg#icon-email-black"></use>
+                            <use href="./images/icons/icons.svg#icon-email-black"></use>
                         </svg>
                     </div>
                 </div>
@@ -506,7 +562,7 @@
                     <label class="modal-form-desc" for="user-privacy">
                         <span class="modal-form-checkbox">
                             <svg class="modal-agree-icon" width="10" height="8">
-                                <use href="./images/icons.svg#icon-arrow"></use>
+                                <use href="./images/icons/icons.svg#icon-arrow"></use>
                             </svg>
                         </span>
                         I accept the terms and conditions of the 
